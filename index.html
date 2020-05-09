@@ -5,11 +5,60 @@
     p{
       margin-top: 0;
       margin-bottom: 1rem;
-      font-size: 15px;
+      font-size: 16px;
       color: #666;
       max-width: 700px;
       padding-left: 30px;
     }
+    .bioText{
+      font-size: 16px;
+      text-indent: 2em;
+      max-width: 1030px;
+      padding-left: 55px;
+      color: #666;
+    }
+    .textMarginleft{
+      margin-left: 117px;
+      color: #666;
+      font-size: 16px;
+      max-width: 875px;
+    }
+    .boldText{
+      font-size: 16px;
+      padding-left: 55px;
+    }
+    h4{
+      padding-left: 8px;
+    }
+    h5{
+      padding-left: 8px;
+    }
+    .toPad{
+      padding-left: 30px;
+    }
+    ul{
+      margin-left: 30px;
+    }
+    .listStyle{
+      font-size: 16px;
+      color: #666;
+    }
+    .container{
+      margin:0 auto;
+      width: 600px;
+    }
+    .buttonMove{
+      margin-left: 285px;
+      margin-top: 100px;
+    }
+    .buttonMoveSecond{
+      margin-left: 285px;
+      margin-top: 30px;
+    }
+    .middle{
+      margin-left: 55px;
+    }
+    
     </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,31 +71,51 @@
     <div class="container">
       <ul class="nav nav-tabs nav-justified">
         <li class="active"><a data-toggle="tab" href="#bio">Biography</a></li>
-        <li><a data-toggle="tab" href="#menu1">Resume-Chinese version</a></li>
-        <li><a data-toggle="tab" href="#menu2">Resume-English version</a></li>
-        <li><a data-toggle="tab" href="#menu3">project introduction</a></li>
+        <li><a data-toggle="tab" href="#resume">Resume</a></li>
+        <li><a data-toggle="tab" href="#intro">project introduction</a></li>
       </ul>
     
+      <div class="middle">
       <div class="tab-content">
         <br>
         <div id="bio" class="tab-pane fade in active">
-          <center><embed src="/Users/stacyhuang/Desktop/testBootstrap/test/中文自傳_pdf.pdf" width="1000" height="800"></center>
+          <span class="border border-light">
+            <div class="bioText">我是黃妍華，個性樂觀，勇於面對挑戰，2019年6月畢業於輔仁大學資訊管理學系。大學時期參與各項校內外活動、多次專案競賽榮獲好評與佳績。歷次專案開發經驗堅定我朝軟體開發方向發展的志向，所以我決定申請至美國研究所進修。一方面專精先進的技術，二方面深入了解西方文化，希望成為企業在擴張國際版圖時不可或缺的一員。目前有幸就讀於美國前50名的Northeastern University持續朝此目標前進。</div> 
+            <br>
+            <b class="boldText">	&lt求學與實習&gt</b><br>
+            <b class="boldText">MS in Information Systems, Northeastern University (2019~)</b>
+            <div class="bioText">主動投入、追求卓越。專案成果受學校肯定並且被留存下來供未來的學弟妹參考。</div>
+            <div class="bioText">對於課業我全力以赴，在系上唯一必修課的專案中所展示的具邏輯性的系統流程、完整的軟體架構設計等備受助教肯定，並且表示將留存此成果作為未來學弟妹的參考。在演算法課程中所做的基因演算法實作，我秉持著持續精進的自我要求態度，不以達到要求而止步，不斷進行演算法的優化，最終超越目標50%。</div>
+            <div class="bioText">近期透過Leetcode練習以自我訓練程式撰寫的思考邏輯與速度，將所學應用在程式中來提升效能，我的程式運行速度與記憶體空間配置的最佳紀錄為優於99％的提交者。</div><br>
+            <b class="boldText">輔仁大學資訊管理學系 (2015~2019)</b>
+            <div class="bioText">多元參與、團隊領導。多項專案成果榮獲佳績。</div>
+            <div class="bioText">大學時期參與各項校內外活動，例如：</div>
+            <div class="textMarginleft">1. 商業提案競賽：擔任團隊組長，帶領團隊進入複賽。對東森集團提出以東森幣為名的虛擬貨幣作為創新提案的主軸，很高興此概念今日在東森購物網上已被實現。</div>
+            <div class="textMarginleft">2. 模擬聯合國：藉由快速、廣泛的信息搜索、討論並歸納以進行辯論來提升自己意見發表與應變能力。</div>
+            <div class="textMarginleft">3. 排球系隊：從多次的練習與比賽中，除了建立良好的友誼，也學習如何培養團隊默契與信任。</div>
+            <div class="textMarginleft">4. 參與系學會：例如擔任聯合聖誕活動的召集人，與校內其他系所討論與協調相關事宜。</div>
+            <br>
+            <div class="bioText">在畢業專題中，我負責後端程式開發、擔任組長帶領團隊以及擔任scrum master為團隊排定時程、分派以及解決問題。也制定團隊學習目標，每週進行讀書會以確定進度。專題為一個社交、遊戲結合的跑步ios app。我提出許多想法並且被團隊採納，例如加入養成遊戲的概念;又如將geo-fencing，這個通常使用於商業廣告投放的方法導入，此部分由我負責開發，這項功能成功的成為app的亮點。此專案在校外InnoServe競賽獲得敏捷開發組第二名，在系上專題競賽中也榮獲評審的好評與佳績。</div>
+            <div class="bioText">大四下在玉山銀行信用卡部門的系統發展部進行為期六個月的實習，實習期間參與開發休假管理系統、規劃信用卡遺失的申請流程、玉山電子錢包app的使用者測試。不僅都能夠在時限內完成交付任務，也在時間允許的情況下協助組員的工作以增加團隊產出。實習期間，我參與並意識到科技與金融結合可以帶來的巨大綜效，引起我對科技創新的憧憬。將來我想要利用所學、所長，透過科技創新，為社會的進步盡一份心力。</div>
+            <br>
+            <b class="boldText">&lt未來期許&gt</b>
+            <div class="bioText">透過我的創新能力、團隊合作精神以及在專業領域中不斷自我精進的態度，我希望透過不斷的努力，未來可以在公司的開發團隊中扮演一個關鍵角色，為團隊帶來貢獻，同時也能與團隊一起成長。</div>
+          </span>
           </div>
-        <div id="menu1" class="tab-pane fade">
-          <center><embed src="/Users/stacyhuang/Desktop/testBootstrap/test/履歷中文版_pdf.pdf" width="1000" height="800"></center>
-          </div>
-        <div id="menu2" class="tab-pane fade">
-          <a href="https://drive.google.com/open?id=1jKcpBtHdioXyy9Ztnzg-Izwm93jScX5O">link</a>
-          <center><embed src="https://drive.google.com/open?id=1jKcpBtHdioXyy9Ztnzg-Izwm93jScX5O" width="1000" height="800"></center>
-          </div>
-        <div id="menu3" class="tab-pane fade">
+
+          <div id="resume" class="tab-pane fade">
+            <button type="button" class="btn btn-primary btn-lg btn-block buttonMove" style="width:500px;height:70px;"onclick="javascript:location.href='https://drive.google.com/file/d/1uXN97ais3IsBQerH1qWTD4zySkWHXKJ5/view?usp=sharing'" >Chinese version</button>
+            <br>
+            <button type="button" class="btn btn-primary btn-lg btn-block buttonMoveSecond" style="width:500px;height:70px;"onclick="javascript:location.href='https://drive.google.com/file/d/1jKcpBtHdioXyy9Ztnzg-Izwm93jScX5O/view?usp=sharing'" >English version</button>
+         </div>
+        <div id="intro" class="tab-pane fade">
           <div class="panel panel-info">
             <div class="panel-heading">
                 <h3 class="panel-title">WiCare system (此專案成果被留存以供日後課程參考)</h3>
             </div>
             <div>
             <h4>專案內容</h4>
-            <p>為強化國內醫療系統與疾病管制署之間對傳染性疾病的信息傳遞效果，在此系統，醫院方可以主動的去判斷並且做疾病的檢驗，再通報管制署以作相關配套措施，有別於今日以管制署為主動方的送驗機制。</p>
+            <p>為強化國內醫療系統與疾病管制署之間對傳染性疾病的信息傳遞效果，在此系統，醫院方可以主動的去判斷並且做疾病的檢驗，再通報管制署以作相關配套措施，有別於今日以管制署為主動方的送驗機制</p>
             </div>
             <div>
               <h4>使用工具/技術</h4>
@@ -62,36 +131,79 @@
             </div>
             <div>
               <h5>此專案Use Case Diagram如下：</h5>
-              <img src="./diagram.png" width="680" height="600">
+              <img src="./diagram.png" width="680" height="600" class="toPad">
             </div>
         </div>
         <div class="panel panel-info">
           <div class="panel-heading">
-              <h3 class="panel-title">WiCare system (此專案成果被留存以供日後課程參考)</h3>
+              <h3 class="panel-title">ZooPower</h3>
           </div>
           <div>
           <h4>專案內容</h4>
-          <p>為強化國內醫療系統與疾病管制署之間對傳染性疾病的信息傳遞效果，在此系統，醫院方可以主動的去判斷並且做疾病的檢驗，再通報管制署以作相關配套措施，有別於今日以管制署為主動方的送驗機制。</p>
+          <p>將跑步軟體結合社交以及養成遊戲概念的ios app，並且以文創的風格呈現，不僅增加趣味、提升用戶的使用意願，也透過文創商品延伸出商業價值，配合app遊戲的更新，推出限時限區域的跑步任務，每次都會有不一樣的跑步體驗和驚喜</p>
           </div>
           <div>
             <h4>使用工具/技術</h4>
-            <p>Java Swing, SQL developer, OpenCV</p>
+            <p>Swift, Firebase, Sketch</p>
           </div>
           <div>
             <h4>demo</h4>
-            <p> </p>
-          </div>
+            <iframe width="700" height="420" src="https://www.youtube.com/embed/vufz3x3ErrI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="toPad"></iframe>
+            </div>
           <div>
             <h4>負責</h4>
-            <p>醫院端以及各組之間的串連</p>
+            <p>後端開發（包括geo-fencing功能的提出和實作）、團隊組長、scrum master</p>
           </div>
           <div>
-            <h5>此專案Use Case Diagram如下：</h5>
-            <img src="/Users/stacyhuang/Desktop/testBootstrap/test/diagram.png" width="680" height="600">
+            <h4>獲獎紀錄</h4>
+            <p>InnoServe泰坦敏捷開發獎第二名、系上專題競賽榮獲佳績</p>
           </div>
+      </div>
+      <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">shopSite 零食購物網站</h3>
+        </div>
+        <div>
+        <h4>專案內容</h4>
+        <p>美食購物網站，商家可透果次系統管理、新增及刪除庫存，並且處理顧客訂單，顧客可透過篩選工具瀏覽各類商品，放入購物車並下單</p>
+        </div>
+        <div>
+          <h4>使用工具/技術</h4>
+          <p>Java Spring framework, HTML, CSS, MySQL</p>
+        </div>
+        <div>
+          <h4>負責</h4>
+          <p>顧客放入喜好商品至購物車至結帳的流程、user story設計、資料庫的規劃</p>
+        </div>
+    </div>
+    <div class="panel panel-info">
+      <div class="panel-heading">
+          <h3 class="panel-title">Selenium測試專案</h3>
+      </div>
+      <div>
+      <h4>專案內容</h4>
+      <p>對Northeastern學生系統進行自動化測試，測試項目為：</p>
+      <ul>
+       <li class="listStyle">學生進行各學期課程的搜尋</li>
+        <li class="listStyle">學生事前安排課程計畫</li>
+        <li class="listStyle">將主頁選單內容加入喜好項目</li>
+      
+      </ul>
+      </div>
+      <div>
+        <h4>使用工具/技術</h4>
+        <p>Java, Selenium, testNG</p>
+      </div>
+      <div>
+        <h4>負責</h4>
+        <p>自動化測試的程式撰寫、程式碼整合</p>
+      </div>
       </div>
         </div>
       </div>
+
+      </div>
+
     </div>
   </body>
 </html>
